@@ -1,0 +1,12 @@
+command /freesmoothie:
+    permission: group.default
+    permission message: &a&lWONDERBUILD &8• &cDazu hast du keine Rechte!
+    cooldown: 24 hours 
+    cooldown message: &7%nl%&a&lWONDERBUILD &8• &7Du kannst deine Smoothies wieder in &c%remaining time% &7abholen!%nl%&7
+    trigger:    
+        give 5 honey bottle to player
+        send ""
+        send "&a&lWONDERBUILD &8• &7Du hast deine täglichen Smoothies erhalten!"
+        send ""
+
+
